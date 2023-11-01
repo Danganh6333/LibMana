@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QuanLyPhieuMuon"
+        android:title="@string/quan_ly_phieu_muon"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:id="@+id/QuanLyLoaiSach"
+        android:title="@string/quan_ly_loai_sach"
+        android:icon="@drawable/baseline_filter_none_24"/>
+    <item android:id="@+id/QuanLySach"
+        android:title="@string/quan_ly_sach"
+        android:icon="@drawable/baseline_picture_as_pdf_24"/>
+    <item android:id="@+id/QuanLyThanhVien"
+        android:title="@string/quan_ly_thanh_vien"
+        android:icon="@drawable/baseline_group_24"/>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/thong_ke">
+            <menu>
+                <item android:id="@+id/MuonSachMuonNhieuNhat"
+                    android:title="@string/muoi_sach_muon_nhieu_nhat"
+                    android:icon="@drawable/baseline_keyboard_tab_24"/>
+                <item android:id="@+id/DoanhThu"
+                    android:title="@string/doanh_thu"
+                    android:icon="@drawable/twotone_attach_money_24"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/nguoi_dung">
+            <menu>
+                <item android:id="@+id/ThemNguoiDung"
+                    android:title="@string/them_nguoi_dung"
+                    android:icon="@drawable/baseline_person_add_24"/>
+                <item android:id="@+id/DoiMatKhau"
+                    android:title="@string/doi_mat_khau"
+                    android:icon="@drawable/baseline_vpn_key_24"/>
+                <item android:id="@+id/DangXuat"
+                    android:title="@string/dang_xuat"
+                    android:icon="@drawable/baseline_exit_to_app_24"/>
+            </menu>
+        </item>
+    </group>
+</menu>
